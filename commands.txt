@@ -1,0 +1,6 @@
+fluentd -c /Users/siri/Desktop/Projects/EC-Team-2-distributed-logging-system/fluentd_kafka.conf
+python3 log-storage.py
+python3 logs-alertsystem.py
+python3 heartbeat-monitor.py
+python3 node.py --node_id 2 --service_name "OrderService"
+python3 node.py --node_id 1 --service_name "PaymentService"
