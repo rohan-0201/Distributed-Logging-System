@@ -19,6 +19,6 @@ for message in log_consumer:
 
 
 # Example steps to run the system:
-# 1. Start Fluentd: `fluentd -c /home/pes2ug22cs578/Desktop/bdprojrjr/fluentd.conf`
+# 1. Start Fluentd: `fluentd -c /home/pes2ug22cs453/Desktop/bdprojrjr/fluentd.conf`
 # 2. Run node.py to generate logs: `python3 node.py --node_id 1 --service_name "PaymentService"` (can run more nodes too in diff terminal)
 # 3. Run the consumer script: `python3 logs-alertsystem.py`
