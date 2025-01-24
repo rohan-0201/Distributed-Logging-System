@@ -1,4 +1,4 @@
-fluentd -c /Users/siri/Desktop/Projects/EC-Team-2-distributed-logging-system/fluentd_kafka.conf
+fluentd -c /Users/rohan/Desktop/Projects/EC-Team-2-distributed-logging-system/fluentd_kafka.conf
 python3 log-storage.py
 python3 logs-alertsystem.py
 python3 heartbeat-monitor.py
